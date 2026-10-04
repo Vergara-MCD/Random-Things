@@ -1,6 +1,6 @@
-$carpeta = "Ruta y tal"
-$nombreBuscar = "DA NAME"
-$nombreSerie = "Da Name NEW"
+$carpeta = "C:\Users\Usuario\Desktop\Aplicaciones\Necesito un disco Duro nuevo y Tal\Tatsunoko Raw\Itadakiman"
+$nombreBuscar = "Time Bokan Series Itadakiman"
+$nombreSerie = "Time Bokan Series Itadakiman"
 $modoPrueba = $false
 
 $extensiones = @(".mkv", ".mp4", ".avi")
@@ -14,6 +14,9 @@ $patrones = @(
     '\[(\d{1,3}(?:\.\d)?)\]',
     '\((\d{1,3}(?:\.\d)?)\)',
     '\b[Ee]p(?:isode)?\.?\s*(\d{1,3}(?:\.\d)?)\b'
+'#\s*(\d{1,3}(?:\.\d)?)',            # <-- NUEVO: Captura el formato "#02"
+    '\b[Ee](\d{1,3}(?:\.\d)?)\b'         # <-- NUEVO: Captura el formato "E01"
+
 )
 
 $archivos = Get-ChildItem -LiteralPath $carpeta -File | Where-Object { $extensiones -contains $_.Extension.ToLower() }
