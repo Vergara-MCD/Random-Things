@@ -1,6 +1,6 @@
-$carpeta = "C:\Users\Usuario\Desktop\Aplicaciones\Necesito un disco Duro nuevo y Tal\Tatsunoko Raw\Itadakiman"
-$nombreBuscar = "Time Bokan Series Itadakiman"
-$nombreSerie = "Time Bokan Series Itadakiman"
+$carpeta = "ruta"
+$nombreBuscar = "Name1"
+$nombreSerie = "Name2"
 $modoPrueba = $false
 
 $extensiones = @(".mkv", ".mp4", ".avi")
