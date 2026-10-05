@@ -1,0 +1,442 @@
+﻿[Script Info]
+Title: Uchuu Taitei God Sigma 01
+ScriptType: v4.00+
+PlayResX: 1440
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3.5,0,2,90,90,50,1
+Style: Check,Arial,60,&H0000FFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3.5,0,2,90,90,50,1
+Style: JP,Yu Gothic,44,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,90,90,35,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:07.00,Default,,0,0,0,,This story begins in the year 2050 A.D.
+Dialogue: 0,0:00:00.00,0:00:07.00,JP,,0,0,0,,このドラマは、西暦2050年に始まる。\N{\fs32\c&H00C8C8C8&}Kono dorama wa, seireki 2050 nen ni hajima ru.
+Dialogue: 0,0:00:07.00,0:00:14.00,Default,,0,0,0,,By then, mankind had pushed space development beyond the Moon, to Mars and Jupiter,
+Dialogue: 0,0:00:07.00,0:00:14.00,JP,,0,0,0,,その頃、人類は、月を越えて、火星、木星へと宇宙開発を進め、\N{\fs32\c&H00C8C8C8&}Sono goro, jinrui wa, gatsu o koe te, kasei, mokusei heto uchuukaihatsu o susume,
+Dialogue: 0,0:00:14.00,0:00:21.00,Default,,0,0,0,,and unmanned space probes had reached even farther, 10 to 20 light-years away.
+Dialogue: 0,0:00:14.00,0:00:21.00,JP,,0,0,0,,無人の宇宙探査船は、さらに遠い、10光年から20光年の彼方まで達していた。\N{\fs32\c&H00C8C8C8&}Mujin no uchuutansa fune wa, sarani tooi, 10 kounen kara 20 kounen no kanata made tasshi teita.
+Dialogue: 0,0:00:21.00,0:00:29.00,Default,,0,0,0,,Yet not a single clue to the existence of alien life had been found.
+Dialogue: 0,0:00:21.00,0:00:29.00,JP,,0,0,0,,しかし、異星人存在の手がかりは、何一つ掴んではいなかった。\N{\fs32\c&H00C8C8C8&}Shikashi, iseijin sonzai no tegakari wa, nani hitotsu tsukan dehainakatta.
+Dialogue: 0,0:02:05.60,0:02:09.10,Default,,0,0,0,,Hey! Hold on!
+Dialogue: 0,0:02:05.60,0:02:09.10,JP,,0,0,0,,これ、待ちなさい!\N{\fs32\c&H00C8C8C8&}Kore, machi nasai!
+Dialogue: 0,0:02:14.00,0:02:16.00,Default,,0,0,0,,Great success!
+Dialogue: 0,0:02:14.00,0:02:16.00,JP,,0,0,0,,大成功!\N{\fs32\c&H00C8C8C8&}Daiseikou!
+Dialogue: 0,0:02:19.70,0:02:24.00,Default,,0,0,0,,Warrior of Rage From Io
+Dialogue: 0,0:02:19.70,0:02:24.00,JP,,0,0,0,,怒れ! イオの戦士\N{\fs32\c&H00C8C8C8&}Ikare!   io no senshi
+Dialogue: 0,0:02:32.60,0:02:36.60,Default,,0,0,0,,Oh, we're getting close to Trinity City!
+Dialogue: 0,0:02:32.60,0:02:36.60,JP,,0,0,0,,おお、トリニティシティが近づいたぞ。\N{\fs32\c&H00C8C8C8&}Oo, toriniteishitei ga chikazu itazo.
+Dialogue: 0,0:02:39.20,0:02:43.50,Default,,0,0,0,,So that's the Space Expo? Awesome!
+Dialogue: 0,0:02:39.20,0:02:43.50,JP,,0,0,0,,あれが宇宙博か。すげえや!\N{\fs32\c&H00C8C8C8&}Arega uchuu hiroka. sugeeya!
+Dialogue: 0,0:02:46.90,0:02:49.90,Default,,0,0,0,,I'm going ahead!
+Dialogue: 0,0:02:46.90,0:02:49.90,JP,,0,0,0,,お先に!\N{\fs32\c&H00C8C8C8&}O sakini!
+Dialogue: 0,0:02:57.50,0:03:02.00,Default,,0,0,0,,The ribbon has been cut at the Comprehensive Space Development Exposition.
+Dialogue: 0,0:02:57.50,0:03:02.00,JP,,0,0,0,,宇宙開発総合博覧会のテープが切られました。\N{\fs32\c&H00C8C8C8&}Uchuukaihatsu sougou hakurankai no teepu ga kira remashita.
+Dialogue: 0,0:03:02.50,0:03:09.30,Default,,0,0,0,,The expo's main attraction is, above all, the three space-development robots Dr. Kazami researched for many years.
+Dialogue: 0,0:03:02.50,0:03:09.30,JP,,0,0,0,,この博覧会の呼び物は、何と言っても風見博士が長年研究された宇宙開発用の3台のロボットです。\N{\fs32\c&H00C8C8C8&}Kono hakurankai no yobimono wa, nanto itte mo kazami hakase ga naganen kenkyuu sareta uchuukaihatsu you no 3 dai no robotto desu.
+Dialogue: 0,0:03:09.30,0:03:16.40,Default,,0,0,0,,Now take a look: the robots are finally making their appearance!
+Dialogue: 0,0:03:09.30,0:03:16.40,JP,,0,0,0,,さあご覧ください、いよいよロボットの登場です。\N{\fs32\c&H00C8C8C8&}Saago ran kudasai, iyoiyo robotto no toujou desu.
+Dialogue: 0,0:03:16.60,0:03:19.30,Default,,0,0,0,,I've been waiting for this!
+Dialogue: 0,0:03:16.60,0:03:19.30,JP,,0,0,0,,待ってました!\N{\fs32\c&H00C8C8C8&}Matsu temashita!
+Dialogue: 0,0:03:26.20,0:03:32.00,Default,,0,0,0,,Named KuRaiOh, Robot No. 1 was built especially for aerial work.
+Dialogue: 0,0:03:26.20,0:03:32.00,JP,,0,0,0,,空雷王と命名され、特に空中作業用に作られました。\N{\fs32\c&H00C8C8C8&}Kuurai ou to meimei sare, tokuni kuuchuu sagyouyou ni tsukura remashita.
+Dialogue: 0,0:03:32.20,0:03:38.60,Check,,0,0,0,,And Robot No. 2, named KaimeiOh, is for work at sea.
+Dialogue: 0,0:03:32.20,0:03:38.60,JP,,0,0,0,,そして2号ロボは海鳴王と名付けられ、海上作業用です。\N{\fs32\c&H00C8C8C8&}Soshite 2 gou robo wa uminari ou to nazuke rare, kaijou sagyouyou desu.
+Dialogue: 0,0:03:39.30,0:03:46.50,Default,,0,0,0,,Next, Robot No. 3 is called RikushinOh and can even work underground.
+Dialogue: 0,0:03:39.30,0:03:46.50,JP,,0,0,0,,続く3号ロボは陸震王と呼ばれ、地下作業も可能です。\N{\fs32\c&H00C8C8C8&}Tsuzuku 3 gou robo wa riku shin ou to yoba re, chika sagyou mo kanou desu.
+Dialogue: 0,0:03:47.60,0:03:50.80,Default,,0,0,0,,Awesome! My arms are itching to try it!
+Dialogue: 0,0:03:47.60,0:03:50.80,JP,,0,0,0,,これかっこいいぜ! 腕がムズムズする!\N{\fs32\c&H00C8C8C8&}Korekakkoiize!   ude ga muzumuzu suru!
+Dialogue: 0,0:03:50.80,0:03:52.30,Default,,0,0,0,,As expected of Earth.
+Dialogue: 0,0:03:50.80,0:03:52.30,JP,,0,0,0,,さすが地球だ。\N{\fs32\c&H00C8C8C8&}Sasuga chikyuu da.
+Dialogue: 0,0:03:52.30,0:03:55.20,Default,,0,0,0,,We don't have development robots this amazing on Io.
+Dialogue: 0,0:03:52.30,0:03:55.20,JP,,0,0,0,,イオではこんなすごい開発ロボットはないからな。\N{\fs32\c&H00C8C8C8&}Io dehakonnasugoi kaihatsu robotto hanaikarana.
+Dialogue: 0,0:03:55.20,0:03:58.00,Default,,0,0,0,,I'd love to pilot one myself.
+Dialogue: 0,0:03:55.20,0:03:58.00,JP,,0,0,0,,俺も操縦してみたいな。\N{\fs32\c&H00C8C8C8&}Ore mo soujuu shitemitaina.
+Dialogue: 0,0:04:09.00,0:04:10.00,Check,,0,0,0,,Help!
+Dialogue: 0,0:04:10.60,0:04:12.40,Check,,0,0,0,,The robot won't do what I want!
+Dialogue: 0,0:04:12.50,0:04:14.00,Default,,0,0,0,,That voice... it's my daughter, Minako!
+Dialogue: 0,0:04:12.50,0:04:14.00,JP,,0,0,0,,あの声は…娘の美奈子!\N{\fs32\c&H00C8C8C8&}Ano koe wa ... musume no minako!
+Dialogue: 0,0:04:15.00,0:04:16.50,Check,,0,0,0,,What's wrong with this thing?!
+Dialogue: 0,0:04:15.00,0:04:16.50,JP,,0,0,0,,どうなってんのこれ!\N{\fs32\c&H00C8C8C8&}Dounattennokore!
+Dialogue: 0,0:04:17.00,0:04:19.00,Default,,0,0,0,,Please, help me!
+Dialogue: 0,0:04:17.00,0:04:19.00,JP,,0,0,0,,お願い、助けて!\N{\fs32\c&H00C8C8C8&}O negai, tasuke te!
+Dialogue: 0,0:04:19.00,0:04:20.00,Default,,0,0,0,,Somebody, tell me what to do!
+Dialogue: 0,0:04:19.00,0:04:20.00,JP,,0,0,0,,教えてよ、誰か!\N{\fs32\c&H00C8C8C8&}Oshie teyo, dareka!
+Dialogue: 0,0:04:21.90,0:04:23.10,Check,,0,0,0,,Which one is it...?
+Dialogue: 0,0:04:21.90,0:04:23.10,JP,,0,0,0,,どれかしら?\N{\fs32\c&H00C8C8C8&}Dorekashira?
+Dialogue: 0,0:04:23.40,0:04:25.00,Default,,0,0,0,,Help me!
+Dialogue: 0,0:04:23.40,0:04:25.00,JP,,0,0,0,,助けてー!\N{\fs32\c&H00C8C8C8&}Tasuke tee!
+Dialogue: 0,0:04:25.20,0:04:27.20,Default,,0,0,0,,It won't stop!
+Dialogue: 0,0:04:25.20,0:04:27.20,JP,,0,0,0,,止まらないよ!\N{\fs32\c&H00C8C8C8&}Toma ranaiyo!
+Dialogue: 0,0:04:27.30,0:04:29.00,Default,,0,0,0,,Please!
+Dialogue: 0,0:04:27.30,0:04:29.00,JP,,0,0,0,,お願い!\N{\fs32\c&H00C8C8C8&}O negai!
+Dialogue: 0,0:04:30.00,0:04:33.00,Default,,0,0,0,,Doctor, my daughter Minako is inside that robot!
+Dialogue: 0,0:04:30.00,0:04:33.00,JP,,0,0,0,,博士、ロボットには娘の美奈子が乗っているんだ!\N{\fs32\c&H00C8C8C8&}Hakase, robotto niha musume no minako ga notte irunda!
+Dialogue: 0,0:04:43.30,0:04:44.00,Default,,0,0,0,,Not bad!
+Dialogue: 0,0:04:43.30,0:04:44.00,JP,,0,0,0,,やるじゃねえか。\N{\fs32\c&H00C8C8C8&}Yarujaneeka.
+Dialogue: 0,0:04:46.00,0:04:49.00,Check,,0,0,0,,It's all right now. He can pilot it.
+Dialogue: 0,0:04:46.00,0:04:49.00,JP,,0,0,0,,もう大丈夫です。彼が乗れる。\N{\fs32\c&H00C8C8C8&}Mou daijoubu desu. kare ga nore ru.
+Dialogue: 0,0:04:54.80,0:04:56.60,Check,,0,0,0,,Sorry!
+Dialogue: 0,0:04:54.80,0:04:56.60,JP,,0,0,0,,ごめんなさい!\N{\fs32\c&H00C8C8C8&}Gomennasai!
+Dialogue: 0,0:04:56.80,0:04:58.00,Check,,0,0,0,,Aaah!
+Dialogue: 0,0:04:58.50,0:05:02.50,Default,,0,0,0,,I wanted to be the first one in that robot!
+Dialogue: 0,0:04:58.50,0:05:02.50,JP,,0,0,0,,私、誰よりも一番先にロボットに乗りたかったの。\N{\fs32\c&H00C8C8C8&}Watashi, dare yorimo ichibansaki ni robotto ni nori takattano.
+Dialogue: 0,0:05:02.50,0:05:06.50,Default,,0,0,0,,After all, Papa is funding the research institute, isn't he?
+Dialogue: 0,0:05:02.50,0:05:06.50,JP,,0,0,0,,だって、パパが研究所にお金を出してるんでしょ?\N{\fs32\c&H00C8C8C8&}Datte, papa ga kenkyuusho nio kin o dashi terundesho?
+Dialogue: 0,0:05:06.50,0:05:08.80,Default,,0,0,0,,I think that at least gives me the right.
+Dialogue: 0,0:05:06.50,0:05:08.80,JP,,0,0,0,,そのくらいの権利はあると思うわ。\N{\fs32\c&H00C8C8C8&}Sonokuraino kenri haaruto omou wa.
+Dialogue: 0,0:05:09.00,0:05:10.00,Default,,0,0,0,,Right, Papa?
+Dialogue: 0,0:05:09.00,0:05:10.00,JP,,0,0,0,,ね、パパ?\N{\fs32\c&H00C8C8C8&}Ne, papa?
+Dialogue: 0,0:05:18.00,0:05:21.00,Default,,0,0,0,,Listen, that is not a toy robot for a young lady to play with.
+Dialogue: 0,0:05:18.00,0:05:21.00,JP,,0,0,0,,いいですか、あれはお嬢さんのお遊び用のロボットじゃない。\N{\fs32\c&H00C8C8C8&}Iidesuka, arehao jou sannoo asobi you no robotto janai.
+Dialogue: 0,0:05:23.10,0:05:27.20,Default,,0,0,0,,Papa, he hit me!
+Dialogue: 0,0:05:23.10,0:05:27.20,JP,,0,0,0,,パパ、私をぶったのよ!\N{\fs32\c&H00C8C8C8&}Papa, watashi wobuttanoyo!
+Dialogue: 0,0:05:27.30,0:05:30.00,Check,,0,0,0,,Hitting a lady... Outrageous! Violence is unacceptable.
+Dialogue: 0,0:05:27.30,0:05:30.00,JP,,0,0,0,,レディーに…けしからん! 暴力はいかんよ、暴力は。\N{\fs32\c&H00C8C8C8&}Redii ni ... keshikaran!   bouryoku haikanyo, bouryoku wa.
+Dialogue: 0,0:05:30.20,0:05:32.50,Default,,0,0,0,,Doctor, who is that young man?
+Dialogue: 0,0:05:30.20,0:05:32.50,JP,,0,0,0,,博士、あの青年は?\N{\fs32\c&H00C8C8C8&}Hakase, ano seinen wa?
+Dialogue: 0,0:05:33.00,0:05:36.00,Default,,0,0,0,,That young man is our chief engineer, Noguchi, but...
+Dialogue: 0,0:05:33.00,0:05:36.00,JP,,0,0,0,,あの青年は主任技師で、野口君と言いますが…\N{\fs32\c&H00C8C8C8&}Ano seinen wa shunin gishi de, noguchi kun to ii masuga ...
+Dialogue: 0,0:05:36.30,0:05:39.00,Default,,0,0,0,,What a jerk! Hmph!
+Dialogue: 0,0:05:36.30,0:05:39.00,JP,,0,0,0,,いやな奴! ふんだ!\N{\fs32\c&H00C8C8C8&}Iyana yatsu!   funda!
+Dialogue: 0,0:05:40.40,0:05:43.00,Check,,0,0,0,,Emergency message from the Earth Alliance!
+Dialogue: 0,0:05:40.40,0:05:43.00,JP,,0,0,0,,地球連合から緊急連絡だ!\N{\fs32\c&H00C8C8C8&}Chikyuu rengou kara kinkyuu renraku da!
+Dialogue: 0,0:05:43.30,0:05:46.80,Default,,0,0,0,,An unidentified flying squadron is engaged with Earth Alliance forces.
+Dialogue: 0,0:05:43.30,0:05:46.80,JP,,0,0,0,,未確認飛行部隊と地球連合軍が交戦中です。\N{\fs32\c&H00C8C8C8&}Mikakunin hikou butai to chikyuu rengougun ga kousenchuu desu.
+Dialogue: 0,0:05:47.00,0:05:50.00,Default,,0,0,0,,I repeat: an unidentified flying squadron has appeared above Earth.
+Dialogue: 0,0:05:47.00,0:05:50.00,JP,,0,0,0,,繰り返します。未確認飛行部隊が地球上空に出現。\N{\fs32\c&H00C8C8C8&}Kurikaeshi masu. mikakunin hikou butai ga chikyuujou sora ni shutsugen.
+Dialogue: 0,0:06:20.70,0:06:24.50,Default,,0,0,0,,Without being picked up by the Earth Alliance's defense radar system,
+Dialogue: 0,0:06:20.70,0:06:24.50,JP,,0,0,0,,地球連合軍の防衛レーダーシステムに探知されず\N{\fs32\c&H00C8C8C8&}Chikyuu rengougun no bouei reedaashisutemu ni tanchi sarezu
+Dialogue: 0,0:06:24.70,0:06:26.30,Default,,0,0,0,,it entered the atmosphere...
+Dialogue: 0,0:06:24.70,0:06:26.30,JP,,0,0,0,,大気圏に侵入するとは…\N{\fs32\c&H00C8C8C8&}Taikiken ni shinnyuu surutoha ...
+Dialogue: 0,0:06:26.30,0:06:28.60,Default,,0,0,0,,How terrifying.
+Dialogue: 0,0:06:26.30,0:06:28.60,JP,,0,0,0,,恐ろしいことだ。\N{\fs32\c&H00C8C8C8&}Osoroshii kotoda.
+Dialogue: 0,0:06:28.80,0:06:32.00,Default,,0,0,0,,The enemy has technology far more advanced than we imagined.
+Dialogue: 0,0:06:28.80,0:06:32.00,JP,,0,0,0,,敵は我々の想像以上に進んだ科学力を持っている。\N{\fs32\c&H00C8C8C8&}Teki wa wareware no souzouijou ni susun da kagakuryoku o motsu teiru.
+Dialogue: 0,0:06:35.00,0:06:38.70,Default,,0,0,0,,If that's the case, then Earth...
+Dialogue: 0,0:06:35.00,0:06:38.70,JP,,0,0,0,,だとすれば、地球は…\N{\fs32\c&H00C8C8C8&}Datosureba, chikyuu wa ...
+Dialogue: 0,0:06:40.00,0:06:46.00,Default,,0,0,0,,Doctor, the enemy seems to be heading straight for Trinity City.
+Dialogue: 0,0:06:40.00,0:06:46.00,JP,,0,0,0,,博士、敵は一直線にこのトリニティシティにコースを取っているようです。\N{\fs32\c&H00C8C8C8&}Hakase, teki wa itchokusen nikono toriniteishitei ni koosu o totsu teiruyoudesu.
+Dialogue: 0,0:06:46.00,0:06:48.50,Default,,0,0,0,,Trinity?
+Dialogue: 0,0:06:46.00,0:06:48.50,JP,,0,0,0,,トリニティ?\N{\fs32\c&H00C8C8C8&}Torinitei?
+Dialogue: 0,0:07:09.60,0:07:14.00,Default,,0,0,0,,Why is the enemy targeting Trinity...?
+Dialogue: 0,0:07:09.60,0:07:14.00,JP,,0,0,0,,なぜ敵はこのトリニティにターゲットを…\N{\fs32\c&H00C8C8C8&}Naze teki hakono torinitei ni taagetto o ...
+Dialogue: 0,0:07:14.00,0:07:16.70,Default,,0,0,0,,Could it be...!
+Dialogue: 0,0:07:14.00,0:07:16.70,JP,,0,0,0,,もしかして…!\N{\fs32\c&H00C8C8C8&}Moshikashite ...!
+Dialogue: 0,0:07:18.00,0:07:22.70,Default,,0,0,0,,The enemy has begun attacking Trinity City!
+Dialogue: 0,0:07:18.00,0:07:22.70,JP,,0,0,0,,敵がトリニティシティに攻撃を開始しました!\N{\fs32\c&H00C8C8C8&}Teki ga toriniteishitei ni kougeki o kaishi shimashita!
+Dialogue: 0,0:07:28.70,0:07:35.70,Default,,0,0,0,,Earthlings, listen well! We have come from the planet Eldar. Resistance is futile!
+Dialogue: 0,0:07:28.70,0:07:35.70,JP,,0,0,0,,地球人よ、よく聞け! 我々はエルダー星から来た。抵抗しても無駄だ!\N{\fs32\c&H00C8C8C8&}Chikyuujin yo, yoku kike!   wareware wa erudaa hoshi kara kita. teikou shitemo muda da!
+Dialogue: 0,0:07:35.70,0:07:39.70,Default,,0,0,0,,Eldar? Then this is an alien attack!
+Dialogue: 0,0:07:35.70,0:07:39.70,JP,,0,0,0,,エルダー星? だとすると、異星人の攻撃だ!\N{\fs32\c&H00C8C8C8&}Erudaa hoshi?  datosuruto, iseijin no kougeki da!
+Dialogue: 0,0:07:39.70,0:07:44.70,Default,,0,0,0,,Our objective is Trinity Energy. Hand it over, or we will kill you all!
+Dialogue: 0,0:07:39.70,0:07:44.70,JP,,0,0,0,,我々の目的はトリニティエネルギーだ。渡さねば皆殺しにする!\N{\fs32\c&H00C8C8C8&}Wareware no mokuteki wa toriniteienerugii da. watasa neba mina koroshi nisuru!
+Dialogue: 0,0:07:44.70,0:07:47.70,Default,,0,0,0,,What? Trinity Energy?
+Dialogue: 0,0:07:44.70,0:07:47.70,JP,,0,0,0,,なに? トリニティエネルギー?\N{\fs32\c&H00C8C8C8&}Nani?  toriniteienerugii?
+Dialogue: 0,0:07:47.70,0:07:50.70,Default,,0,0,0,,Doctor, what is Trinity Energy?
+Dialogue: 0,0:07:47.70,0:07:50.70,JP,,0,0,0,,博士、トリニティエネルギーとは?\N{\fs32\c&H00C8C8C8&}Hakase, toriniteienerugii toha?
+Dialogue: 0,0:07:50.70,0:07:55.70,Default,,0,0,0,,Doctor! I'll defend Trinity City with the robots!
+Dialogue: 0,0:07:50.70,0:07:55.70,JP,,0,0,0,,博士! 私がロボットでトリニティシティを守ります!\N{\fs32\c&H00C8C8C8&}Hakase!   watashi ga robotto de toriniteishitei o mamori masu!
+Dialogue: 0,0:07:55.70,0:07:59.70,Default,,0,0,0,,But the robots have no combat weapons.
+Dialogue: 0,0:07:55.70,0:07:59.70,JP,,0,0,0,,しかし、ロボットには戦闘用の武器はない。\N{\fs32\c&H00C8C8C8&}Shikashi, robotto niha sentouyou no buki hanai.
+Dialogue: 0,0:07:59.70,0:08:03.70,Default,,0,0,0,,You of all people should know that best.
+Dialogue: 0,0:07:59.70,0:08:03.70,JP,,0,0,0,,それは君が一番よく知っているはずだ。\N{\fs32\c&H00C8C8C8&}Soreha kun ga ichiban yoku shitte iruhazuda.
+Dialogue: 0,0:08:03.70,0:08:05.70,Default,,0,0,0,,Well, just watch.
+Dialogue: 0,0:08:03.70,0:08:05.70,JP,,0,0,0,,まあ、見ていてください。\N{\fs32\c&H00C8C8C8&}Maa, mite itekudasai.
+Dialogue: 0,0:08:14.70,0:08:16.70,Default,,0,0,0,,I'm not about to die in a place like this!
+Dialogue: 0,0:08:14.70,0:08:16.70,JP,,0,0,0,,こんなところで死んでたまるかい!\N{\fs32\c&H00C8C8C8&}Konnatokorode shin detamarukai!
+Dialogue: 0,0:08:17.70,0:08:20.70,Default,,0,0,0,,All right. For me, Earth is a home planet too.
+Dialogue: 0,0:08:17.70,0:08:20.70,JP,,0,0,0,,よし、俺にとっちゃ地球も母星だ。\N{\fs32\c&H00C8C8C8&}Yoshi, ore nitotcha chikyuu mo bosei da.
+Dialogue: 0,0:08:20.70,0:08:23.00,Default,,0,0,0,,I won't just let the enemy...
+Dialogue: 0,0:08:20.70,0:08:23.00,JP,,0,0,0,,このままむざむざ敵に…\N{\fs32\c&H00C8C8C8&}Konomamamuzamuza teki ni ...
+Dialogue: 0,0:08:28.00,0:08:31.00,Default,,0,0,0,,Piloting robots is my absolute specialty!
+Dialogue: 0,0:08:28.00,0:08:31.00,JP,,0,0,0,,ロボットの操縦は俺の得意中の大得意だぜ!\N{\fs32\c&H00C8C8C8&}Robotto no soujuu wa ore no tokui nakano daitokui daze!
+Dialogue: 0,0:08:46.90,0:08:51.40,Default,,0,0,0,,So this is the control lever? Heh, that's easy.
+Dialogue: 0,0:08:46.90,0:08:51.40,JP,,0,0,0,,これが操縦レバーか。なんだ、簡単じゃねえか。\N{\fs32\c&H00C8C8C8&}Korega soujuu rebaa ka. nanda, kantan janeeka.
+Dialogue: 0,0:08:55.10,0:08:57.60,Default,,0,0,0,,All right, here I go!
+Dialogue: 0,0:08:55.10,0:08:57.60,JP,,0,0,0,,よーし、行くぞ!\N{\fs32\c&H00C8C8C8&}Yooshi, iku zo!
+Dialogue: 0,0:09:06.40,0:09:09.40,Default,,0,0,0,,Who is it?! Who launched Robot No. 1?!
+Dialogue: 0,0:09:06.40,0:09:09.40,JP,,0,0,0,,誰だ! 1号ロボを飛ばした奴は!\N{\fs32\c&H00C8C8C8&}Dare da!  1 gou robo o toba shita yatsu wa!
+Dialogue: 0,0:09:11.40,0:09:15.40,Default,,0,0,0,,Watch me. I'll wipe them out with this robot!
+Dialogue: 0,0:09:11.40,0:09:15.40,JP,,0,0,0,,見てろよ。このロボットでめためたにやっつけてやる!\N{\fs32\c&H00C8C8C8&}Mite royo. kono robotto demetametaniyattsuketeyaru!
+Dialogue: 0,0:09:15.40,0:09:19.40,Default,,0,0,0,,Hey! Who gave you permission to pilot Robot No. 1?!
+Dialogue: 0,0:09:15.40,0:09:19.40,JP,,0,0,0,,こらっ! 君は誰の許可を受けて1号ロボを操縦しているんだ!\N{\fs32\c&H00C8C8C8&}Koratsu!   kun wa dare no kyoka o uke te 1 gou robo o soujuu shiteirunda!
+Dialogue: 0,0:09:19.40,0:09:21.00,Check,,0,0,0,,I won't forgive you for taking it out without permission!
+Dialogue: 0,0:09:19.40,0:09:21.00,JP,,0,0,0,,勝手に飛ばしたら許さんぞ!\N{\fs32\c&H00C8C8C8&}Katte ni toba shitara yurusa nzo!
+Dialogue: 0,0:09:21.20,0:09:25.00,Default,,0,0,0,,Don't worry, don't worry. Leave it to me. I'll show you my skills!
+Dialogue: 0,0:09:21.20,0:09:25.00,JP,,0,0,0,,心配ない、心配ない。任しときって。腕前ご披露するぜ!\N{\fs32\c&H00C8C8C8&}Shinpai nai, shinpai nai. makashi tokitte. udemae go hirou suruze!
+Dialogue: 0,0:09:32.80,0:09:35.30,Default,,0,0,0,,Too slow!
+Dialogue: 0,0:09:32.80,0:09:35.30,JP,,0,0,0,,遅いぜ!\N{\fs32\c&H00C8C8C8&}Osoi ze!
+Dialogue: 0,0:09:41.20,0:09:42.00,Default,,0,0,0,,One down!
+Dialogue: 0,0:09:41.20,0:09:42.00,JP,,0,0,0,,一丁上がり!\N{\fs32\c&H00C8C8C8&}Itchou aga ri!
+Dialogue: 0,0:09:42.50,0:09:45.00,Default,,0,0,0,,Not bad. Launching Unit No. 2!
+Dialogue: 0,0:09:42.50,0:09:45.00,JP,,0,0,0,,なかなかやる。二号機、発進するぞ!\N{\fs32\c&H00C8C8C8&}Nakanakayaru. nigou ki, hasshin suruzo!
+Dialogue: 0,0:10:00.00,0:10:02.00,Default,,0,0,0,,Performance is just as I calculated.
+Dialogue: 0,0:10:00.00,0:10:02.00,JP,,0,0,0,,計算通りの性能だ。\N{\fs32\c&H00C8C8C8&}Keisan touri no seinou da.
+Dialogue: 0,0:10:05.00,0:10:10.00,Default,,0,0,0,,This Robot No. 2 was originally made for underwater use. Listen, watch closely. I'll take them down!
+Dialogue: 0,0:10:05.00,0:10:10.00,JP,,0,0,0,,この二号ロボはもともと水中用なんだ。いいか、よく見てろよ。撃破してやる!\N{\fs32\c&H00C8C8C8&}Kono nigou robo hamotomoto suichuu you nanda. iika, yoku mite royo. gekiha shiteyaru!
+Dialogue: 0,0:10:20.40,0:10:21.40,Default,,0,0,0,,Right on schedule!
+Dialogue: 0,0:10:20.40,0:10:21.40,JP,,0,0,0,,予定通り!\N{\fs32\c&H00C8C8C8&}Yoteidoori!
+Dialogue: 0,0:10:21.60,0:10:23.00,Default,,0,0,0,,Take this!
+Dialogue: 0,0:10:21.60,0:10:23.00,JP,,0,0,0,,これでも喰らえ!\N{\fs32\c&H00C8C8C8&}Koredemo kurae!
+Dialogue: 0,0:10:35.50,0:10:38.00,Check,,0,0,0,,Wow! So cool... it gives me chills!
+Dialogue: 0,0:10:35.50,0:10:38.00,JP,,0,0,0,,ウォー! かっこいい…しびれちゃう!\N{\fs32\c&H00C8C8C8&}Uoo!   kakkoii ... shibirechau!
+Dialogue: 0,0:10:45.00,0:10:46.00,Check,,0,0,0,,Tch.
+Dialogue: 0,0:10:50.90,0:10:52.50,Default,,0,0,0,,Hyah! Fall!
+Dialogue: 0,0:10:50.90,0:10:52.50,JP,,0,0,0,,えいっ、落ちろ!\N{\fs32\c&H00C8C8C8&}Eitsu, ochiro!
+Dialogue: 0,0:10:53.70,0:10:55.90,Check,,0,0,0,,Geez... this is more than I can handle.
+Dialogue: 0,0:10:53.70,0:10:55.90,JP,,0,0,0,,うん、面倒見きれねえや。\N{\fs32\c&H00C8C8C8&}Un, mendoumi kireneeya.
+Dialogue: 0,0:11:06.70,0:11:09.80,Default,,0,0,0,,S-sorry. My name is Julie Noguchi.
+Dialogue: 0,0:11:06.70,0:11:09.80,JP,,0,0,0,,す…すまない。俺の名はジュリー野口。\N{\fs32\c&H00C8C8C8&}Su ... sumanai. ore no mei wa jurii noguchi.
+Dialogue: 0,0:11:12.20,0:11:15.00,Default,,0,0,0,,I'm Dan Toshiya. Let's fight together!
+Dialogue: 0,0:11:12.20,0:11:15.00,JP,,0,0,0,,俺はダン・トシヤだ。一緒に戦おう!\N{\fs32\c&H00C8C8C8&}Ore wa dan・toshiya da. isshoni sen ou!
+Dialogue: 0,0:11:15.40,0:11:17.00,Default,,0,0,0,,Yeah!
+Dialogue: 0,0:11:15.40,0:11:17.00,JP,,0,0,0,,おう!\N{\fs32\c&H00C8C8C8&}Ou!
+Dialogue: 0,0:11:32.00,0:11:35.50,Default,,0,0,0,,Dr. Kazami, there's a message from Earth Alliance headquarters.
+Dialogue: 0,0:11:32.00,0:11:35.50,JP,,0,0,0,,風見博士、地球連合軍本部からの連絡です。\N{\fs32\c&H00C8C8C8&}Kazami hakase, chikyuu rengougun honbu karano renraku desu.
+Dialogue: 0,0:11:36.30,0:11:42.00,Default,,0,0,0,,The Space Fleet's 3rd Earth Defense Force has located the enemy ship at Space Point 102.
+Dialogue: 0,0:11:36.30,0:11:42.00,JP,,0,0,0,,宇宙艦隊第3地球防衛方面軍が、敵の宇宙船を102ポイント宇宙地点で発見したそうです。\N{\fs32\c&H00C8C8C8&}Uchuu kantai dai 3 chikyuubouei houmengun ga, teki no uchuusen o 102 pointo uchuu chiten de hakken shitasoudesu.
+Dialogue: 0,0:11:46.30,0:11:52.30,Check,,0,0,0,,If the Space Fleet is on it, we have nothing to fear. They'll surely wipe out the enemy.
+Dialogue: 0,0:11:46.30,0:11:52.30,JP,,0,0,0,,宇宙艦隊なら大丈夫。絶対に敵を撃破するに違いない。\N{\fs32\c&H00C8C8C8&}Uchuu kantai nara daijoubu. zettai ni kanawo gekiha suruni chigai nai.
+Dialogue: 0,0:12:12.90,0:12:18.20,Default,,0,0,0,,Impudent! To think Earth had a robot like that!
+Dialogue: 0,0:12:12.90,0:12:18.20,JP,,0,0,0,,小癪な! 地球にあのようなロボットがあったとは!\N{\fs32\c&H00C8C8C8&}Koshaku na!   chikyuu nianoyouna robotto gaattatoha!
+Dialogue: 0,0:12:18.40,0:12:22.00,Default,,0,0,0,,Right, I'll crush them myself. Prepare to attack!
+Dialogue: 0,0:12:18.40,0:12:22.00,JP,,0,0,0,,よし、俺が叩きつぶしてやる。攻撃態勢に入れ!\N{\fs32\c&H00C8C8C8&}Yoshi, ore ga tataki tsubushiteyaru. kougeki taisei ni ire!
+Dialogue: 0,0:12:22.40,0:12:23.30,Default,,0,0,0,,Understood!
+Dialogue: 0,0:12:22.40,0:12:23.30,JP,,0,0,0,,はっ!\N{\fs32\c&H00C8C8C8&}Hatsu!
+Dialogue: 0,0:12:28.00,0:12:31.00,Default,,0,0,0,,You'll see soon enough, you humans of the blue planet!
+Dialogue: 0,0:12:28.00,0:12:31.00,JP,,0,0,0,,今に見ていろ、青い星の人間どもめが!\N{\fs32\c&H00C8C8C8&}Ima ni mite iro, aoi hoshi no ningen domomega!
+Dialogue: 0,0:12:32.80,0:12:39.00,Default,,0,0,0,,If we obtain Trinity Energy, our homeland Eldar will be saved!
+Dialogue: 0,0:12:32.80,0:12:39.00,JP,,0,0,0,,トリニティエネルギーを手に入れれば、我が祖国エルダー星は救われる!\N{\fs32\c&H00C8C8C8&}Toriniteienerugii o teniire reba, waga sokoku erudaa hoshi wa sukuwa reru!
+Dialogue: 0,0:12:39.60,0:12:40.80,Default,,0,0,0,,Jeela!
+Dialogue: 0,0:12:39.60,0:12:40.80,JP,,0,0,0,,ジーラ!\N{\fs32\c&H00C8C8C8&}Jiira!
+Dialogue: 0,0:12:41.00,0:12:46.50,Check,,0,0,0,,I've been told the attack on Earth is to be suspended.
+Dialogue: 0,0:12:41.00,0:12:46.50,JP,,0,0,0,,地球攻撃は一時中止とのことです。\N{\fs32\c&H00C8C8C8&}Chikyuu kougeki wa ichijichuushi tonokotodesu.
+Dialogue: 0,0:12:47.10,0:12:49.80,Default,,0,0,0,,Suspended? Why?
+Dialogue: 0,0:12:47.10,0:12:49.80,JP,,0,0,0,,一時中止? なぜだ?\N{\fs32\c&H00C8C8C8&}Ichijichuushi?  nazeda?
+Dialogue: 0,0:12:50.40,0:12:53.80,Default,,0,0,0,,What good would it do to attack Earth blindly?
+Dialogue: 0,0:12:50.40,0:12:53.80,JP,,0,0,0,,闇雲に地球を攻撃して何になりましょう?\N{\fs32\c&H00C8C8C8&}Yamikumo ni chikyuu o kougeki shite nani ninarimashou?
+Dialogue: 0,0:12:54.30,0:12:57.00,Default,,0,0,0,,Commander Leitz, you saw it yourself, didn't you?
+Dialogue: 0,0:12:54.30,0:12:57.00,JP,,0,0,0,,リーツ司令、ご覧になったでありましょう。\N{\fs32\c&H00C8C8C8&}Riitsu shirei, go ran ninattadearimashou.
+Dialogue: 0,0:12:57.40,0:13:00.20,Default,,0,0,0,,Our forces' attack failed completely.
+Dialogue: 0,0:12:57.40,0:13:00.20,JP,,0,0,0,,我が軍の攻撃は見事失敗したのです。\N{\fs32\c&H00C8C8C8&}Waga gun no kougeki wa migoto shippai shitanodesu.
+Dialogue: 0,0:13:01.00,0:13:02.30,Default,,0,0,0,,What are you saying, Lady Jeela?!
+Dialogue: 0,0:13:01.00,0:13:02.30,JP,,0,0,0,,何を言われるか、ジーラ殿!\N{\fs32\c&H00C8C8C8&}Naniwo iwa reruka, jiira dono!
+Dialogue: 0,0:13:02.40,0:13:08.00,Default,,0,0,0,,Lady Jeela, if we attack with this mothership, we'll blow that robot away in an instant!
+Dialogue: 0,0:13:02.40,0:13:08.00,JP,,0,0,0,,ジーラ殿、この母船で攻撃すれば、あのロボットなど瞬時に葬ってやる!\N{\fs32\c&H00C8C8C8&}Jiira dono, kono bosen de kougeki sureba, ano robotto nado shunji ni sou tteyaru!
+Dialogue: 0,0:13:09.40,0:13:11.00,Default,,0,0,0,,Oh,
+Dialogue: 0,0:13:09.40,0:13:11.00,JP,,0,0,0,,あら、\N{\fs32\c&H00C8C8C8&}Ara,
+Dialogue: 0,0:13:13.00,0:13:14.00,Default,,0,0,0,,Lord Teral.
+Dialogue: 0,0:13:13.00,0:13:14.00,JP,,0,0,0,,テラル様。\N{\fs32\c&H00C8C8C8&}Teraru sama.
+Dialogue: 0,0:13:14.50,0:13:17.50,Default,,0,0,0,,Isn't that exactly where your calculations went wrong?
+Dialogue: 0,0:13:14.50,0:13:17.50,JP,,0,0,0,,そこがお前の計算違いではないのか。\N{\fs32\c&H00C8C8C8&}Sokogao mae no keisan chigai dehanainoka.
+Dialogue: 0,0:13:17.70,0:13:20.50,Default,,0,0,0,,What will you do if the Earthlings use Trinity Energy?
+Dialogue: 0,0:13:17.70,0:13:20.50,JP,,0,0,0,,もし地球人がトリニティエネルギーを使ったら、どうするつもりか。\N{\fs32\c&H00C8C8C8&}Moshi chikyuujin ga toriniteienerugii o tsukatta ra, dousurutsumorika.
+Dialogue: 0,0:13:20.70,0:13:22.50,Default,,0,0,0,,Do you think you could still win then?
+Dialogue: 0,0:13:20.70,0:13:22.50,JP,,0,0,0,,それでもその勝負、勝ち目があるのかな。\N{\fs32\c&H00C8C8C8&}Soredemosono shoubu, kachime gaarunokana.
+Dialogue: 0,0:13:25.30,0:13:30.00,Default,,0,0,0,,Well, Commander Leitz? Surely you wouldn't defy me, your Commander-in-Chief...
+Dialogue: 0,0:13:25.30,0:13:30.00,JP,,0,0,0,,どうだ、リーツ司令。よもや総司令の私の命令を聞けぬと…\N{\fs32\c&H00C8C8C8&}Douda, riitsu shirei. yomoya soushi rei no watashi no meirei o kike nuto ...
+Dialogue: 0,0:13:30.30,0:13:32.50,Default,,0,0,0,,N-no, Commander-in-Chief Teral...
+Dialogue: 0,0:13:30.30,0:13:32.50,JP,,0,0,0,,いや、テラル総司令…\N{\fs32\c&H00C8C8C8&}Iya, teraru soushi rei ...
+Dialogue: 0,0:13:32.80,0:13:34.50,Check,,0,0,0,,Withdraw at once!
+Dialogue: 0,0:13:32.80,0:13:34.50,JP,,0,0,0,,直ちに引き上げよ!\N{\fs32\c&H00C8C8C8&}Tadachi ni hikiage yo!
+Dialogue: 0,0:13:34.50,0:13:35.50,Check,,0,0,0,,Understood!
+Dialogue: 0,0:13:45.30,0:13:46.50,Default,,0,0,0,,We're saved!
+Dialogue: 0,0:13:45.30,0:13:46.50,JP,,0,0,0,,助かったぞ!\N{\fs32\c&H00C8C8C8&}Tasuka ttazo!
+Dialogue: 0,0:13:46.60,0:13:48.00,Check,,0,0,0,,The enemy has pulled back.
+Dialogue: 0,0:13:46.60,0:13:48.00,JP,,0,0,0,,敵は引き上げた。\N{\fs32\c&H00C8C8C8&}Teki wa hikiage ta.
+Dialogue: 0,0:13:48.20,0:13:51.50,Default,,0,0,0,,Look. The enemy is gone.
+Dialogue: 0,0:13:48.20,0:13:51.50,JP,,0,0,0,,見てみろ、敵はいないぞ。\N{\fs32\c&H00C8C8C8&}Mite miro, teki hainaizo.
+Dialogue: 0,0:13:52.30,0:13:56.00,Check,,0,0,0,,The research institute I invested in...
+Dialogue: 0,0:13:52.30,0:13:56.00,JP,,0,0,0,,わしが投資した研究所は…\N{\fs32\c&H00C8C8C8&}Washiga toushi shita kenkyuusho wa ...
+Dialogue: 0,0:14:05.50,0:14:07.80,Check,,0,0,0,,Oh, he's wonderful...
+Dialogue: 0,0:14:05.50,0:14:07.80,JP,,0,0,0,,ああ、素敵だわー…\N{\fs32\c&H00C8C8C8&}Aa, suteki dawaa ...
+Dialogue: 0,0:14:07.90,0:14:10.50,Check,,0,0,0,,My heart's going thump-thump!
+Dialogue: 0,0:14:07.90,0:14:10.50,JP,,0,0,0,,美奈子のハート、ドッキンコ ドッキンコ!\N{\fs32\c&H00C8C8C8&}Minako no haato, dokkinko   dokkinko!
+Dialogue: 0,0:14:10.60,0:14:13.60,Check,,0,0,0,,After all, he's the world's greatest hero... and I'm going to make him mine!
+Dialogue: 0,0:14:10.60,0:14:13.60,JP,,0,0,0,,だって世界一の英雄、私のものにしちゃうから!\N{\fs32\c&H00C8C8C8&}Datte sekaiichi no eiyuu, watashi nomononishichaukara!
+Dialogue: 0,0:14:14.00,0:14:15.00,Default,,0,0,0,,Minako!
+Dialogue: 0,0:14:14.00,0:14:15.00,JP,,0,0,0,,ミナコ!\N{\fs32\c&H00C8C8C8&}Minako!
+Dialogue: 0,0:14:17.00,0:14:18.50,Default,,0,0,0,,Reckless, but impressive.
+Dialogue: 0,0:14:17.00,0:14:18.50,JP,,0,0,0,,いや、無鉄砲だが大したもんだ。\N{\fs32\c&H00C8C8C8&}Iya, muteppou daga taishita monda.
+Dialogue: 0,0:14:18.60,0:14:21.00,Default,,0,0,0,,There aren't many people on Earth like you.
+Dialogue: 0,0:14:18.60,0:14:21.00,JP,,0,0,0,,地球上にも君ほどの奴はそうはいない。\N{\fs32\c&H00C8C8C8&}Chikyuujou nimo kun hodono yatsu hasouhainai.
+Dialogue: 0,0:14:21.10,0:14:24.00,Default,,0,0,0,,On Io, I operated construction robots.
+Dialogue: 0,0:14:21.10,0:14:24.00,JP,,0,0,0,,俺はイオでは建設ロボットを操縦していたんだ。\N{\fs32\c&H00C8C8C8&}Ore wa io deha kensetsu robotto o soujuu shiteitanda.
+Dialogue: 0,0:14:24.10,0:14:26.00,Default,,0,0,0,,I also have a spaceship pilot's license.
+Dialogue: 0,0:14:24.10,0:14:26.00,JP,,0,0,0,,それに、宇宙船パイロットの資格もある。\N{\fs32\c&H00C8C8C8&}Soreni, uchuusen pairotto no shikaku moaru.
+Dialogue: 0,0:14:27.00,0:14:28.80,Default,,0,0,0,,I knew it...
+Dialogue: 0,0:14:27.00,0:14:28.80,JP,,0,0,0,,やっぱり…\N{\fs32\c&H00C8C8C8&}Yappari ...
+Dialogue: 0,0:14:29.00,0:14:32.60,Default,,0,0,0,,So it was you? The hero of the robots?
+Dialogue: 0,0:14:29.00,0:14:32.60,JP,,0,0,0,,あなただったの? ロボットの英雄って。\N{\fs32\c&H00C8C8C8&}Anatadattano?  robotto no eiyuu tte.
+Dialogue: 0,0:14:34.00,0:14:35.40,Default,,0,0,0,,Hmph. Sorry about that.
+Dialogue: 0,0:14:34.00,0:14:35.40,JP,,0,0,0,,ふん、すまないな。\N{\fs32\c&H00C8C8C8&}Fun, sumanaina.
+Dialogue: 0,0:14:36.60,0:14:37.70,Check,,0,0,0,,Hmph! Get lost!
+Dialogue: 0,0:14:36.60,0:14:37.70,JP,,0,0,0,,ふん、消えて!\N{\fs32\c&H00C8C8C8&}Fun, kie te!
+Dialogue: 0,0:14:37.80,0:14:38.70,Check,,0,0,0,,Huh? Oh, wow!
+Dialogue: 0,0:14:37.80,0:14:38.70,JP,,0,0,0,,え? いやー、ワーオ!\N{\fs32\c&H00C8C8C8&}E?  iyaa, waao!
+Dialogue: 0,0:14:38.80,0:14:43.00,Check,,0,0,0,,Just as I imagined... what a young man! He's absolutely thrilling!
+Dialogue: 0,0:14:38.80,0:14:43.00,JP,,0,0,0,,やっぱり私の思ってた通りのヤングマン、最高にしびれる!\N{\fs32\c&H00C8C8C8&}Yappari watashi no omotte ta touri no yanguman, saikou nishibireru!
+Dialogue: 0,0:14:44.80,0:14:48.00,Default,,0,0,0,,That's how a hero should be.
+Dialogue: 0,0:14:44.80,0:14:48.00,JP,,0,0,0,,ヒーローはこうでなくちゃ。\N{\fs32\c&H00C8C8C8&}Hiiroo hakoudenakucha.
+Dialogue: 0,0:14:49.00,0:14:53.40,Default,,0,0,0,,A robot couldn't ask for a better pilot than you.
+Dialogue: 0,0:14:49.00,0:14:53.40,JP,,0,0,0,,君のような人に操縦されてこそ、このロボットも本望だよ。\N{\fs32\c&H00C8C8C8&}Kun noyouna nin ni soujuu saretekoso, kono robotto mo honmou dayo.
+Dialogue: 0,0:14:53.80,0:14:58.50,Default,,0,0,0,,Doctor, terrible news! A message from Io says the enemy is attacking Io!
+Dialogue: 0,0:14:53.80,0:14:58.50,JP,,0,0,0,,博士、大変です! イオからの通信で、敵がイオに攻撃を!\N{\fs32\c&H00C8C8C8&}Hakase, taihen desu!   io karano tsuushin de, teki ga io ni kougeki o!
+Dialogue: 0,0:14:59.20,0:15:03.00,Default,,0,0,0,,What?! Io?! My homeland is under alien attack?!
+Dialogue: 0,0:14:59.20,0:15:03.00,JP,,0,0,0,,何? イオが? 俺の故郷が異星人の攻撃を?\N{\fs32\c&H00C8C8C8&}Nani?  io ga?  ore no kokyou ga iseijin no kougeki o?
+Dialogue: 0,0:15:03.10,0:15:03.50,Default,,0,0,0,,Is that true?
+Dialogue: 0,0:15:03.10,0:15:03.50,JP,,0,0,0,,本当か?\N{\fs32\c&H00C8C8C8&}Hontou ka?
+Dialogue: 0,0:15:04.00,0:15:05.00,Check,,0,0,0,,Yes.
+Dialogue: 0,0:15:08.00,0:15:09.00,Default,,0,0,0,,Io is a long way off.
+Dialogue: 0,0:15:08.00,0:15:09.00,JP,,0,0,0,,イオは遠いんだ。\N{\fs32\c&H00C8C8C8&}Io wa tooi nda.
+Dialogue: 0,0:15:09.10,0:15:11.00,Default,,0,0,0,,Do you really think that robot can get you there?
+Dialogue: 0,0:15:09.10,0:15:11.00,JP,,0,0,0,,あのロボットで行けると思っているのか?\N{\fs32\c&H00C8C8C8&}Ano robotto de ike ruto omotte irunoka?
+Dialogue: 0,0:15:11.30,0:15:12.60,Default,,0,0,0,,But...
+Dialogue: 0,0:15:11.30,0:15:12.60,JP,,0,0,0,,しかし…\N{\fs32\c&H00C8C8C8&}Shikashi ...
+Dialogue: 0,0:15:21.00,0:15:22.40,Check,,0,0,0,,Elsewhere...
+Dialogue: 0,0:15:22.60,0:15:29.50,Default,,0,0,0,,Mercury, Venus, Earth, Mars, Jupiter, in order from the Sun;
+Dialogue: 0,0:15:22.60,0:15:29.50,JP,,0,0,0,,太陽から水星、金星、地球、火星、木星と、\N{\fs32\c&H00C8C8C8&}Taiyou kara suisei, kinsei, chikyuu, kasei, mokusei to,
+Dialogue: 0,0:15:29.80,0:15:33.50,Default,,0,0,0,,Jupiter is the fifth planet.
+Dialogue: 0,0:15:29.80,0:15:33.50,JP,,0,0,0,,5番目に位置する惑星が木星である。\N{\fs32\c&H00C8C8C8&}5 banme ni ichi suru wakusei ga mokusei dearu.
+Dialogue: 0,0:15:33.90,0:15:39.00,Default,,0,0,0,,Io is one of Jupiter's 14 moons.
+Dialogue: 0,0:15:33.90,0:15:39.00,JP,,0,0,0,,イオは、その木星の14の衛星のうちの一つである。\N{\fs32\c&H00C8C8C8&}Io wa, sono mokusei no 14 no eisei nouchino hitotsu dearu.
+Dialogue: 0,0:15:39.50,0:15:45.00,Check,,0,0,0,,Diameter: 3,640 km. Density: 3.5.
+Dialogue: 0,0:15:39.50,0:15:45.00,JP,,0,0,0,,直径3640キロ、比重3.5。\N{\fs32\c&H00C8C8C8&}Chokkei 3640 kiro, hijuu 3. 5.
+Dialogue: 0,0:15:45.90,0:15:55.00,Default,,0,0,0,,Here, mankind had built the Io Colony as a relay point for expansion beyond the solar system.
+Dialogue: 0,0:15:45.90,0:15:55.00,JP,,0,0,0,,今ここに人類は、太陽系外進出の中継地点として、イオ・コロニーを建設したのであった。\N{\fs32\c&H00C8C8C8&}Imako koni jinrui wa, taiyoukei soto shinshutsu no chuukeichi ten toshite, io・koronii o kensetsu shitanodeatta.
+Dialogue: 0,0:16:25.00,0:16:29.50,Check,,0,0,0,,Father! Mother! Reiko! Hiroshi!
+Dialogue: 0,0:16:25.00,0:16:29.50,JP,,0,0,0,,お父さん! お母さん! レイコ! ヒロシ!\N{\fs32\c&H00C8C8C8&}O tousan!   o kaasan!   reiko!   hiroshi!
+Dialogue: 0,0:16:30.00,0:16:32.00,Default,,0,0,0,,Where are you?!
+Dialogue: 0,0:16:30.00,0:16:32.00,JP,,0,0,0,,どこだー!\N{\fs32\c&H00C8C8C8&}Dokodaa!
+Dialogue: 0,0:16:34.00,0:16:35.00,Check,,0,0,0,,Go!
+Dialogue: 0,0:16:34.00,0:16:35.00,JP,,0,0,0,,行けえ!\N{\fs32\c&H00C8C8C8&}Ike e!
+Dialogue: 0,0:16:53.40,0:16:55.60,Default,,0,0,0,,Let me off! Please, let me off!
+Dialogue: 0,0:16:53.40,0:16:55.60,JP,,0,0,0,,降ろせ! 降ろしてくれ!\N{\fs32\c&H00C8C8C8&}Furo se!   furo shitekure!
+Dialogue: 0,0:17:55.40,0:17:58.50,Check,,0,0,0,,Hail Eldar!
+Dialogue: 0,0:17:55.40,0:17:58.50,JP,,0,0,0,,エルダー!\N{\fs32\c&H00C8C8C8&}Erudaa!
+Dialogue: 0,0:17:59.30,0:18:02.00,Default,,0,0,0,,Loyal servants of Eldar!
+Dialogue: 0,0:17:59.30,0:18:02.00,JP,,0,0,0,,忠実なるエルダーのしもべたちよ!\N{\fs32\c&H00C8C8C8&}Chuujitsu naru erudaa noshimobetachiyo!
+Dialogue: 0,0:18:02.20,0:18:05.20,Default,,0,0,0,,For the eternal prosperity of our homeland,
+Dialogue: 0,0:18:02.20,0:18:05.20,JP,,0,0,0,,我々は祖国の永遠なる発展を願い、\N{\fs32\c&H00C8C8C8&}Wareware wa sokoku no eien naru hatten o negai,
+Dialogue: 0,0:18:05.40,0:18:08.50,Default,,0,0,0,,we came to Earth seeking Trinity Energy.
+Dialogue: 0,0:18:05.40,0:18:08.50,JP,,0,0,0,,地球にトリニティエネルギーを求めてやってきた。\N{\fs32\c&H00C8C8C8&}Chikyuu ni toriniteienerugii o motome teyattekita.
+Dialogue: 0,0:18:08.70,0:18:13.50,Default,,0,0,0,,But the Earthlings possess more technological power than we predicted.
+Dialogue: 0,0:18:08.70,0:18:13.50,JP,,0,0,0,,だが、地球人は我々が予想した以上の科学力を備えている。\N{\fs32\c&H00C8C8C8&}Daga, chikyuujin wa wareware ga yosou shita ijou no kagakuryoku o sonae teiru.
+Dialogue: 0,0:18:14.00,0:18:16.80,Default,,0,0,0,,My comrades, we must not underestimate the Earthlings.
+Dialogue: 0,0:18:14.00,0:18:16.80,JP,,0,0,0,,諸君、地球人をあなどってはならん。\N{\fs32\c&H00C8C8C8&}Shokun, chikyuujin woanadottehanaran.
+Dialogue: 0,0:18:17.00,0:18:19.00,Default,,0,0,0,,But there is nothing to fear.
+Dialogue: 0,0:18:17.00,0:18:19.00,JP,,0,0,0,,しかし、恐れることはない。\N{\fs32\c&H00C8C8C8&}Shikashi, osore rukotohanai.
+Dialogue: 0,0:18:19.20,0:18:22.00,Default,,0,0,0,,No matter how the Earthlings stand against us,
+Dialogue: 0,0:18:19.20,0:18:22.00,JP,,0,0,0,,地球人がいかに我々に立ち向かおうとも、\N{\fs32\c&H00C8C8C8&}Chikyuujin gaikani wareware ni tachi muka outomo,
+Dialogue: 0,0:18:22.20,0:18:26.50,Default,,0,0,0,,for the sake of our homeland, we must obtain Trinity Energy at all costs.
+Dialogue: 0,0:18:22.20,0:18:26.50,JP,,0,0,0,,祖国のためにトリニティエネルギーは絶対に手に入れねばならん。\N{\fs32\c&H00C8C8C8&}Sokoku notameni toriniteienerugii wa zettai ni teniire nebanaran.
+Dialogue: 0,0:18:26.80,0:18:30.50,Default,,0,0,0,,Comrades, we shall build a space fortress on this moon,
+Dialogue: 0,0:18:26.80,0:18:30.50,JP,,0,0,0,,諸君、この衛星に宇宙要塞を築き、\N{\fs32\c&H00C8C8C8&}Shokun, kono eisei ni uchuu yousai o kizuki,
+Dialogue: 0,0:18:30.70,0:18:36.00,Default,,0,0,0,,and, just as the Earthlings did, resupply all war materiel from Jupiter
+Dialogue: 0,0:18:30.70,0:18:36.00,JP,,0,0,0,,地球人が行ったと同様、木星からあらゆる戦略物資を補給して\N{\fs32\c&H00C8C8C8&}Chikyuujin ga itta to douyou, mokusei karaarayuru senryaku busshi o hokyuu shite
+Dialogue: 0,0:18:36.10,0:18:39.00,Default,,0,0,0,,and attack Earth!
+Dialogue: 0,0:18:36.10,0:18:39.00,JP,,0,0,0,,地球を攻撃するのだ!\N{\fs32\c&H00C8C8C8&}Chikyuu o kougeki surunoda!
+Dialogue: 0,0:18:42.60,0:18:46.50,Default,,0,0,0,,Meanwhile, in Trinity City, in preparation for the enemy's next attack,
+Dialogue: 0,0:18:42.60,0:18:46.50,JP,,0,0,0,,一方、トリニティシティでは、次なる敵の攻撃に備えて\N{\fs32\c&H00C8C8C8&}Ippou, toriniteishitei deha, tsugina ru teki no kougeki ni sonae te
+Dialogue: 0,0:18:46.70,0:18:49.00,Default,,0,0,0,,the robots were being modified.
+Dialogue: 0,0:18:46.70,0:18:49.00,JP,,0,0,0,,ロボットの改造が行われていた。\N{\fs32\c&H00C8C8C8&}Robotto no kaizou ga okonawa reteita.
+Dialogue: 0,0:18:49.20,0:18:51.50,Default,,0,0,0,,All right, good! Right there!
+Dialogue: 0,0:18:49.20,0:18:51.50,JP,,0,0,0,,よし、いいぞ、そこだ!\N{\fs32\c&H00C8C8C8&}Yoshi, iizo, sokoda!
+Dialogue: 0,0:18:51.70,0:18:58.50,Default,,0,0,0,,Furthermore, the modified Robots No. 1 and No. 2 were put to work every day restoring Trinity City.
+Dialogue: 0,0:18:51.70,0:18:58.50,JP,,0,0,0,,さらに、改造の終わった1号ロボ、2号ロボは、連日トリニティシティの復興作業に駆り出された。\N{\fs32\c&H00C8C8C8&}Sarani, kaizou no owa tta 1 gou robo, 2 gou robo wa, renjitsu toriniteishitei no fukkou sagyou ni kari dasa reta.
+Dialogue: 0,0:18:59.70,0:19:03.00,Default,,0,0,0,,Damn those aliens... my homeland...
+Dialogue: 0,0:18:59.70,0:19:03.00,JP,,0,0,0,,よくも異星人め…俺の故郷を…\N{\fs32\c&H00C8C8C8&}Yokumo iseijin me ... ore no kokyou o ...
+Dialogue: 0,0:19:07.30,0:19:10.00,Default,,0,0,0,,Father, Mother... please be safe.
+Dialogue: 0,0:19:07.30,0:19:10.00,JP,,0,0,0,,父さん、母さん、無事でいてくれ。\N{\fs32\c&H00C8C8C8&}Tousan, kaasan, buji deitekure.
+Dialogue: 0,0:19:13.00,0:19:21.00,Default,,0,0,0,,An escape ship from Io is making an emergency landing!
+Dialogue: 0,0:19:13.00,0:19:21.00,JP,,0,0,0,,イオからの脱出宇宙船が緊急着陸します!\N{\fs32\c&H00C8C8C8&}Io karano dasshutsu uchuusen ga kinkyuu chakuriku shimasu!
+Dialogue: 0,0:19:25.00,0:19:27.50,Default,,0,0,0,,That's insane!
+Dialogue: 0,0:19:25.00,0:19:27.50,JP,,0,0,0,,無茶な!\N{\fs32\c&H00C8C8C8&}Mucha na!
+Dialogue: 0,0:19:32.00,0:19:34.00,Default,,0,0,0,,Landing like that is dangerous!
+Dialogue: 0,0:19:32.00,0:19:34.00,JP,,0,0,0,,あのまま着陸したら危険だ!\N{\fs32\c&H00C8C8C8&}Anomama chakuriku shitara kiken da!
+Dialogue: 0,0:19:55.20,0:19:58.00,Default,,0,0,0,,It's Earth! We're saved!
+Dialogue: 0,0:19:55.20,0:19:58.00,JP,,0,0,0,,地球だ! 俺たちは助かったんだ!\N{\fs32\c&H00C8C8C8&}Chikyuu da!   ore tachiha tasuka ttanda!
+Dialogue: 0,0:19:58.20,0:20:01.00,Default,,0,0,0,,Huh? Kiraken?
+Dialogue: 0,0:19:58.20,0:20:01.00,JP,,0,0,0,,ん? キラケン?\N{\fs32\c&H00C8C8C8&}N?  kiraken?
+Dialogue: 0,0:20:02.80,0:20:03.70,Default,,0,0,0,,Kiraken!
+Dialogue: 0,0:20:02.80,0:20:03.70,JP,,0,0,0,,キラケン!\N{\fs32\c&H00C8C8C8&}Kiraken!
+Dialogue: 0,0:20:03.80,0:20:07.50,Default,,0,0,0,,Oh, Toshiya! What are you doing in a place like this?!
+Dialogue: 0,0:20:03.80,0:20:07.50,JP,,0,0,0,,おっ、トシヤ! お前、こんなところで!\N{\fs32\c&H00C8C8C8&}Otsu, toshiya!   o mae, konnatokorode!
+Dialogue: 0,0:20:07.80,0:20:10.20,Default,,0,0,0,,You! So what about your folks?
+Dialogue: 0,0:20:07.80,0:20:10.20,JP,,0,0,0,,お前! で、親父たちは?\N{\fs32\c&H00C8C8C8&}O mae!   de, oyaji tachiha?
+Dialogue: 0,0:20:10.50,0:20:13.50,Check,,0,0,0,,I'm sorry, but as you can see,
+Dialogue: 0,0:20:10.50,0:20:13.50,JP,,0,0,0,,残念じゃが、ご覧のように…\N{\fs32\c&H00C8C8C8&}Zannen jaga, go ran noyouni ...
+Dialogue: 0,0:20:13.60,0:20:17.30,Check,,0,0,0,,this is all I have left.
+Dialogue: 0,0:20:13.60,0:20:17.30,JP,,0,0,0,,俺に残されたのはこれだけじゃ。\N{\fs32\c&H00C8C8C8&}Ore ni nokosa retanohakoredakeja.
+Dialogue: 0,0:20:17.80,0:20:22.50,Default,,0,0,0,,They're fearsome enemies. Earth Alliance forces can't handle them at all.
+Dialogue: 0,0:20:17.80,0:20:22.50,JP,,0,0,0,,凄い敵だ。とても地球連合軍の手には負えない。\N{\fs32\c&H00C8C8C8&}Sugoi teki da. totemo chikyuu rengougun no teni wa oe nai.
+Dialogue: 0,0:20:22.60,0:20:24.60,Default,,0,0,0,,I... I see.
+Dialogue: 0,0:20:22.60,0:20:24.60,JP,,0,0,0,,そ、そうか。\N{\fs32\c&H00C8C8C8&}So, souka.
+Dialogue: 0,0:20:26.70,0:20:28.00,Default,,0,0,0,,Defeat the enemy, and...
+Dialogue: 0,0:20:26.70,0:20:28.00,JP,,0,0,0,,敵を倒し…\N{\fs32\c&H00C8C8C8&}Kanawo taoshi ...
+Dialogue: 0,0:20:28.30,0:20:31.00,Default,,0,0,0,,this is the only way to return to Io.
+Dialogue: 0,0:20:28.30,0:20:31.00,JP,,0,0,0,,イオに戻るには、この道しかない。\N{\fs32\c&H00C8C8C8&}Io ni modoru niha, kono michi shikanai.
+Dialogue: 0,0:20:31.10,0:20:32.90,Default,,0,0,0,,What do you mean by that?
+Dialogue: 0,0:20:31.10,0:20:32.90,JP,,0,0,0,,どういうことじゃい?\N{\fs32\c&H00C8C8C8&}Douiukotojai?
+Dialogue: 0,0:20:33.00,0:20:35.00,Default,,0,0,0,,Follow me.
+Dialogue: 0,0:20:33.00,0:20:35.00,JP,,0,0,0,,ついてきなさい。\N{\fs32\c&H00C8C8C8&}Tsuitekinasai.
+Dialogue: 0,0:20:39.00,0:20:41.00,Default,,0,0,0,,Doctor, what is this?
+Dialogue: 0,0:20:39.00,0:20:41.00,JP,,0,0,0,,博士、これは?\N{\fs32\c&H00C8C8C8&}Hakase, koreha?
+Dialogue: 0,0:20:47.50,0:20:48.60,Default,,0,0,0,,Amazing!
+Dialogue: 0,0:20:47.50,0:20:48.60,JP,,0,0,0,,すごい!\N{\fs32\c&H00C8C8C8&}Sugoi!
+Dialogue: 0,0:20:49.70,0:20:54.00,Default,,0,0,0,,Let me tell you why I built an underground command room like this.
+Dialogue: 0,0:20:49.70,0:20:54.00,JP,,0,0,0,,私がどうしてこのような地下指令室を作ったか話そう。\N{\fs32\c&H00C8C8C8&}Watashi gadoushitekonoyouna chika shirei shitsu o tsukutsu taka hanaso u.
+Dialogue: 0,0:20:54.10,0:20:57.10,Default,,0,0,0,,And why the aliens attacked this place.
+Dialogue: 0,0:20:54.10,0:20:57.10,JP,,0,0,0,,なぜ異星人がここを攻撃したか。\N{\fs32\c&H00C8C8C8&}Naze iseijin gakokowo kougeki shitaka.
+Dialogue: 0,0:20:57.20,0:21:01.70,Default,,0,0,0,,The enemy was after the Trinity Energy generator beneath this place.
+Dialogue: 0,0:20:57.20,0:21:01.70,JP,,0,0,0,,敵はこの地下にあるトリニティエネルギー発生装置を狙ったからだ。\N{\fs32\c&H00C8C8C8&}Teki hakono chika niaru toriniteienerugii hassei souchi o neratsu takarada.
+Dialogue: 0,0:21:01.90,0:21:04.20,Default,,0,0,0,,Trinity Energy...
+Dialogue: 0,0:21:01.90,0:21:04.20,JP,,0,0,0,,トリニティエネルギー…\N{\fs32\c&H00C8C8C8&}Toriniteienerugii ...
+Dialogue: 0,0:21:04.50,0:21:09.80,Default,,0,0,0,,Trinity Energy is hundreds of thousands of times more powerful than a hydrogen bomb.
+Dialogue: 0,0:21:04.50,0:21:09.80,JP,,0,0,0,,トリニティエネルギーは、水爆の何十万倍もの強力なエネルギーだ。\N{\fs32\c&H00C8C8C8&}Toriniteienerugii wa, suibaku no nanjuuman bai mono kyouryoku na enerugii da.
+Dialogue: 0,0:21:09.90,0:21:10.90,Default,,0,0,0,,Incredible...
+Dialogue: 0,0:21:09.90,0:21:10.90,JP,,0,0,0,,すごい…\N{\fs32\c&H00C8C8C8&}Sugoi ...
+Dialogue: 0,0:21:11.00,0:21:15.90,Default,,0,0,0,,If this Trinity Energy were ever taken by the enemy...
+Dialogue: 0,0:21:11.00,0:21:15.90,JP,,0,0,0,,もしこのトリニティエネルギーが敵に奪われるようなことがあれば…\N{\fs32\c&H00C8C8C8&}Moshikono toriniteienerugii ga teki ni ubawa reruyounakotogaareba ...
+Dialogue: 0,0:21:16.40,0:21:22.00,Default,,0,0,0,,Yeah, I get it. The universe would be ruled by them.
+Dialogue: 0,0:21:16.40,0:21:22.00,JP,,0,0,0,,ああ、分かってるよ。宇宙は奴らに支配されちまうってわけだ。\N{\fs32\c&H00C8C8C8&}Aa, waka tteruyo. uchuu wa yatsu rani shihai sarechimauttewakeda.
+Dialogue: 0,0:21:22.70,0:21:28.50,Default,,0,0,0,,Unless you defeat the enemy with those robots, you can never return to Io.
+Dialogue: 0,0:21:22.70,0:21:28.50,JP,,0,0,0,,君たちはあのロボットで敵を倒す以外に、イオには永久に戻れんのだ。\N{\fs32\c&H00C8C8C8&}Kun tachihaano robotto de kanawo taosu igai ni, io niha eikyuu ni modore nnoda.
+Dialogue: 0,0:21:28.80,0:21:31.00,Default,,0,0,0,,Those robots from before? You can't be serious!
+Dialogue: 0,0:21:28.80,0:21:31.00,JP,,0,0,0,,あの、さっきのロボットで? まさか!\N{\fs32\c&H00C8C8C8&}Ano, sakkino robotto de?  masaka!
+Dialogue: 0,0:21:32.90,0:21:35.00,Default,,0,0,0,,But there is a way.
+Dialogue: 0,0:21:32.90,0:21:35.00,JP,,0,0,0,,だが、方法はある。\N{\fs32\c&H00C8C8C8&}Daga, houhou haaru.
+Dialogue: 0,0:21:36.00,0:21:38.00,Default,,0,0,0,,Unidentified flying object approaching.
+Dialogue: 0,0:21:36.00,0:21:38.00,JP,,0,0,0,,未確認飛行物体接近。\N{\fs32\c&H00C8C8C8&}Mikakunin hikoubuttai sekkin.
+Dialogue: 0,0:21:38.20,0:21:40.50,Default,,0,0,0,,Unidentified flying object approaching.
+Dialogue: 0,0:21:38.20,0:21:40.50,JP,,0,0,0,,未確認飛行物体接近。\N{\fs32\c&H00C8C8C8&}Mikakunin hikoubuttai sekkin.
+Dialogue: 0,0:21:42.80,0:21:44.00,Check,,0,0,0,,That's a flying monster!
+Dialogue: 0,0:21:42.80,0:21:44.00,JP,,0,0,0,,あれは空飛ぶ怪物だぜ!\N{\fs32\c&H00C8C8C8&}Areha kuuhi bu kaibutsu daze!
+Dialogue: 0,0:21:45.00,0:21:48.50,Check,,0,0,0,,It's the aliens' new weapon!
+Dialogue: 0,0:21:45.00,0:21:48.50,JP,,0,0,0,,宇宙人の新しい攻撃メカだ!\N{\fs32\c&H00C8C8C8&}Uchuujin no atarashii kougeki meka da!
+Dialogue: 0,0:21:53.00,0:21:54.80,Check,,0,0,0,,Let's take down that monster!
+Dialogue: 0,0:21:53.00,0:21:54.80,JP,,0,0,0,,敵の化け物をぶっ倒そうぜ!\N{\fs32\c&H00C8C8C8&}Teki no bakemono wobutsu taoso uze!
+Dialogue: 0,0:21:55.10,0:21:57.00,Default,,0,0,0,,Another rampage in the robots, huh?
+Dialogue: 0,0:21:55.10,0:21:57.00,JP,,0,0,0,,またロボットで一暴れするか?\N{\fs32\c&H00C8C8C8&}Mata robotto de ichi abare suruka?
+Dialogue: 0,0:21:57.20,0:21:58.30,Default,,0,0,0,,I'm in too!
+Dialogue: 0,0:21:57.20,0:21:58.30,JP,,0,0,0,,オラもやる!\N{\fs32\c&H00C8C8C8&}Ora moyaru!
+Dialogue: 0,0:21:58.40,0:22:00.30,Default,,0,0,0,,Doctor, please let us!
+Dialogue: 0,0:21:58.40,0:22:00.30,JP,,0,0,0,,博士、ぜひお願いします!\N{\fs32\c&H00C8C8C8&}Hakase, zehio negai shimasu!
+Dialogue: 0,0:22:00.40,0:22:04.00,Default,,0,0,0,,When someone picks a fight, you can't turn it down.
+Dialogue: 0,0:22:00.40,0:22:04.00,JP,,0,0,0,,売られた喧嘩は買わなくてはな。\N{\fs32\c&H00C8C8C8&}Ura reta kenka wa kawa nakutehana.
+Dialogue: 0,0:22:18.50,0:22:19.80,Default,,0,0,0,,Let's go!
+Dialogue: 0,0:22:18.50,0:22:19.80,JP,,0,0,0,,行きましょう!\N{\fs32\c&H00C8C8C8&}Iki mashou!
+Dialogue: 0,0:22:19.90,0:22:20.90,Default,,0,0,0,,All right!
+Dialogue: 0,0:22:19.90,0:22:20.90,JP,,0,0,0,,よっしゃ!\N{\fs32\c&H00C8C8C8&}Yossha!
+Dialogue: 0,0:22:21.00,0:22:23.00,Default,,0,0,0,,Go!
+Dialogue: 0,0:22:21.00,0:22:23.00,JP,,0,0,0,,ゴー!\N{\fs32\c&H00C8C8C8&}Goo!
+Dialogue: 0,0:22:45.90,0:22:49.00,Default,,0,0,0,,The battle against the enemy metal beast Cosmosaurus Graken
+Dialogue: 0,0:22:45.90,0:22:49.00,JP,,0,0,0,,敵金属獣コスモザウルス・グラーケンとの\N{\fs32\c&H00C8C8C8&}Teki kinzoku kemono kosumozaurusu・guraaken tono
+Dialogue: 0,0:22:49.10,0:22:53.50,Default,,0,0,0,,was about to begin.
+Dialogue: 0,0:22:49.10,0:22:53.50,JP,,0,0,0,,戦闘の火蓋は切って落とされようとしていた。\N{\fs32\c&H00C8C8C8&}Sentou no hibuta wa kitsu te oto sareyoutoshiteita.
